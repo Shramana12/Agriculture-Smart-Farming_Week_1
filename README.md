@@ -67,15 +67,13 @@ The goal of this project is to build a deep learning model using Computer Vision
 
 ```
 Crop-Disease-Detection/
-│── data/
+│── PlantVillage_color/
 │── PlantVillage_split/
 │   ├── train/
 │   ├── val/
 │   └── test/
 │── notebooks/
 │── README.md
-│── .gitignore
-│── LICENSE
 ```
 
 ---
