@@ -14,6 +14,7 @@ The goal of this project is to build a deep learning model using Computer Vision
 ## 📂 Dataset
 
 **Dataset Name:** PlantVillage Dataset
+
 **Source:** Kaggle ([PlantVillage Dataset](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset))
 
 * Contains images of healthy and diseased plant leaves
