@@ -101,3 +101,56 @@ Crop-Disease-Detection/
 ## 💡 Conclusion
 
 This project aims to create a simple and effective system for early detection of crop diseases, supporting smart farming and improving agricultural productivity.
+
+
+
+
+
+📊 Week 2: CNN Model Training
+
+🚧 Project Status: Week 2 Completed
+
+🎯 Objective
+
+In this week, We built a basic CNN model to classify plant leaf diseases using images.
+
+🧠 Model
+
+We created a Custom CNN model using:
+
+Conv2D layers
+MaxPooling layers
+Dense layers
+
+Also used:
+
+Dropout to reduce overfitting
+⚙️ Training
+Loss function: categorical_crossentropy
+Optimizer: Adam
+Model trained on training data
+Checked performance using validation data
+🛑 Overfitting Control
+
+To avoid overfitting, I used:
+
+Dropout
+EarlyStopping
+ReduceLROnPlateau
+📈 Monitoring
+
+I plotted:
+
+Accuracy graph
+Loss graph
+
+This helped us understand how well the model is learning.
+
+📊 Observation
+Model started learning patterns from images
+Validation accuracy improved slowly
+Some overfitting was controlled using dropout
+💡 Conclusion
+
+In Week 2, We successfully trained a basic CNN model.
+This is our baseline model, and we will improve it in the next weeks.
