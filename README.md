@@ -105,52 +105,79 @@ This project aims to create a simple and effective system for early detection of
 
 
 
+Sure 👍 — here is your **full Week 2 write-up with updated Next Step (Week 3)** in simple 1st-year style:
 
-📊 Week 2: CNN Model Training
+---
 
-🚧 Project Status: Week 2 Completed
+# 📊 Week 2: CNN Model Training
 
-🎯 Objective
+🚧 **Project Status:** Week 2 Completed
 
-In this week, We built a basic CNN model to classify plant leaf diseases using images.
+---
 
-🧠 Model
+## 🎯 Objective
 
-We created a Custom CNN model using:
+In this week, We built a **basic CNN model** to classify plant leaf diseases using images.
 
-Conv2D layers
-MaxPooling layers
-Dense layers
+---
+
+## 🧠 Model
+
+We created a **Custom CNN model** using:
+
+* Conv2D layers
+* MaxPooling layers
+* Dense layers
 
 Also used:
 
-Dropout to reduce overfitting
-⚙️ Training
-Loss function: categorical_crossentropy
-Optimizer: Adam
-Model trained on training data
-Checked performance using validation data
-🛑 Overfitting Control
+* Dropout to reduce overfitting
 
-To avoid overfitting, I used:
+---
 
-Dropout
-EarlyStopping
-ReduceLROnPlateau
-📈 Monitoring
+## ⚙️ Training
 
-I plotted:
+* Loss function: `categorical_crossentropy`
+* Optimizer: Adam
+* Model trained on training data
+* Checked performance using validation data
 
-Accuracy graph
-Loss graph
+---
+
+## 🛑 Overfitting Control
+
+To avoid overfitting, We used:
+
+* Dropout
+* EarlyStopping
+* ReduceLROnPlateau
+
+---
+
+## 📈 Monitoring
+
+We plotted:
+
+* Accuracy graph
+* Loss graph
 
 This helped us understand how well the model is learning.
 
-📊 Observation
-Model started learning patterns from images
-Validation accuracy improved slowly
-Some overfitting was controlled using dropout
-💡 Conclusion
+---
 
-In Week 2, We successfully trained a basic CNN model.
+## 📊 Observation
+
+* Model started learning patterns from images
+* Validation accuracy improved slowly
+* Some overfitting was controlled using dropout
+
+---
+
+## 💡 Conclusion
+
+In Week 2, we successfully trained a **basic CNN model**.
 This is our baseline model, and we will improve it in the next weeks.
+
+---
+
+
