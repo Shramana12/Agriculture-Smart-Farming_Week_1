@@ -181,3 +181,108 @@ This is our baseline model, and we will improve it in the next weeks.
 ---
 
 
+# 🚀 Week 3: Transfer Learning & Hyperparameter Tuning
+
+🚧 Project Status: Week 3 Completed
+
+---
+
+## 🎯 Objective
+
+This week, we improved our model to get **better accuracy**.
+We used a smarter method instead of building everything from scratch.
+
+---
+
+## 🧠 Model
+
+We used a pre-trained model:
+
+* **MobileNetV2**
+
+👉 This model is already trained on **ImageNet dataset**, so it already knows basic image patterns.
+
+---
+
+## ✔ What we did
+
+* Loaded pre-trained model
+* Froze all base layers
+* Added our own layers on top
+* Trained only the top layers first
+
+---
+
+## ⚙️ Training
+
+### Phase 1
+
+* Base model frozen
+* Trained only new layers
+
+### Phase 2
+
+* Unfroze last few layers
+* Used very low learning rate
+
+👉 This helped improve accuracy.
+
+---
+
+## 🔧 Hyperparameter Tuning
+
+We tested different learning rates:
+
+* 0.001
+* 0.0001
+
+👉 Selected the best one automatically.
+
+---
+
+## 🛑 Overfitting Control
+
+We used:
+
+* Dropout
+* EarlyStopping
+* ReduceLROnPlateau
+
+👉 This helped the model not overfit.
+
+---
+
+## 📈 Monitoring
+
+* Checked accuracy graph
+* Checked loss graph
+
+👉 To see how the model is learning.
+
+---
+
+## 📊 Evaluation
+
+* Accuracy
+* Precision
+* Recall
+* Confusion Matrix
+
+---
+
+## 📊 Result
+
+* Accuracy improved from Week 2
+* Model learned faster
+  
+---
+
+## 💡 Conclusion
+
+Transfer Learning helped us build a **better and faster model**.
+The model can now detect crop diseases more accurately.
+
+
+---
+
+
