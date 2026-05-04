@@ -285,4 +285,113 @@ The model can now detect crop diseases more accurately.
 
 ---
 
+# 🚀 Week 4: Evaluation, Inference & Deployment
 
+🚧 Project Status: Week 4 Completed
+
+---
+
+# 🎯 Objective
+
+In this week, we checked how well our final model works.
+We also saved the model and created a prediction system for new unseen images.
+
+---
+
+# 🧠 Model Evaluation
+
+We tested the model performance using different evaluation methods.
+
+✔ We checked:
+
+* Accuracy
+* Precision
+* Recall
+* Confusion Matrix
+
+👉 These helped us understand model performance better.
+
+---
+
+# 📊 Confusion Matrix
+
+We created a Confusion Matrix to see which diseases are predicted correctly and which diseases are getting confused with other similar diseases.
+
+✔ Observation
+
+* Most diseases were predicted correctly
+* Some similar diseases were slightly confused
+
+👉 This helped us find model mistakes easily.
+
+---
+
+# 💾 Saving the Model
+
+We saved:
+
+* Final trained model
+* Model weights
+
+👉 So the model can be used later without training again.
+
+---
+
+# 🖼️ Inference System
+
+We created an inference script for testing new images.
+
+✔ The script can:
+
+* Take a new image
+* Predict the disease name
+* Show confidence score
+
+👉 This makes the project ready for real-world use.
+
+---
+
+# ⚙️ Project Organization
+
+We organized the project files properly.
+
+✔ Repository includes:
+
+* Training notebooks
+* Saved model
+* Inference script
+* Result graphs
+* README file
+
+👉 This makes the project clean and easy to understand.
+
+---
+
+# 📈 Monitoring
+
+We checked:
+
+* Accuracy graph
+* Loss graph
+* Confusion Matrix
+
+👉 These graphs helped us understand model learning.
+
+---
+
+# 📊 Final Observation
+
+* Model performance improved a lot
+* Transfer Learning helped increase accuracy
+* Model worked well on unseen images
+* Some similar diseases were still slightly confusing
+
+---
+
+# 💡 Conclusion
+
+In Week 4, we successfully completed the final testing and deployment preparation of our project.
+
+The model can now predict plant leaf diseases from new images and also provide confidence scores.
+
+----
